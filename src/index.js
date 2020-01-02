@@ -11,9 +11,9 @@ import Membro from './components/Membro';
 const element = document.getElementById('root');
 ReactDOM.render(
   <div>
-    <Familia>
-      <Membro name="João" surname="Pereira"></Membro>
-      <Membro name="Marcos " surname="Pereira"></Membro>
+    <Familia surname="Pereira">
+      <Membro name="João"></Membro>
+      {/* <Membro name="Marcos " surname="Pereira"></Membro> */}
     </Familia>
     {/* <FamiliaSilva /> */}
     {/* <FirstComponent valor="Testing Props" /> 

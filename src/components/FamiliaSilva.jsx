@@ -3,9 +3,9 @@ import Membro from './Membro';
 
 export default props => (
   <div>
-    <Membro name={'João'} surname={'Silva'}></Membro>
-    <Membro name={'Paulo'} surname={'Silva'}></Membro>
-    <Membro name={'Pedro'} surname={'Silva'}></Membro>
-    <Membro name={'Ana'} surname={'Silva'}></Membro>
+    <Membro nome={'João'} surname={'Silva'}></Membro>
+    <Membro nome={'Paulo'} surname={'Silva'}></Membro>
+    <Membro nome={'Pedro'} surname={'Silva'}></Membro>
+    <Membro nome={'Ana'} surname={'Silva'}></Membro>
   </div>
 );
