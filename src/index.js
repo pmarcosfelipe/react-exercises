@@ -13,8 +13,9 @@ ReactDOM.render(
   <div>
     <Familia surname="Pereira">
       <Membro name="João"></Membro>
-      {/* <Membro name="Marcos " surname="Pereira"></Membro> */}
+      <Membro name="Marcos"></Membro>
     </Familia>
+
     {/* <FamiliaSilva /> */}
     {/* <FirstComponent valor="Testing Props" /> 
     <CompA valor="Componente A!" />
