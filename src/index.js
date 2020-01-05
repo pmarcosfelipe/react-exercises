@@ -8,12 +8,14 @@ import ReactDOM from 'react-dom';
 // import Familia from './components/Familia';
 // import Membro from './components/Membro';
 // import ComponentWithFunction from './components/ComponentWithFunction';
-import Pai from './components/Pai';
+// import Pai from './components/Pai';
+import ComponentClass from './components/ComponentClass';
 
 const element = document.getElementById('root');
 ReactDOM.render(
   <div>
-    <Pai />
+    <ComponentClass valor="Sou um Class Component"></ComponentClass>
+    {/* <Pai /> */}
     {/* <ComponentWithFunction /> */}
     {/* <Familia surname="Pereira">
       <Membro name="João"></Membro>
