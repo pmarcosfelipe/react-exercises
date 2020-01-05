@@ -9,12 +9,14 @@ import ReactDOM from 'react-dom';
 // import Membro from './components/Membro';
 // import ComponentWithFunction from './components/ComponentWithFunction';
 // import Pai from './components/Pai';
-import ComponentClass from './components/ComponentClass';
+// import ComponentClass from './components/ComponentClass';
+import Contador from './components/Contador';
 
 const element = document.getElementById('root');
 ReactDOM.render(
   <div>
-    <ComponentClass valor="Sou um Class Component"></ComponentClass>
+    <Contador numero={0} />
+    {/* <ComponentClass valor="Sou um Class Component"></ComponentClass> */}
     {/* <Pai /> */}
     {/* <ComponentWithFunction /> */}
     {/* <Familia surname="Pereira">
