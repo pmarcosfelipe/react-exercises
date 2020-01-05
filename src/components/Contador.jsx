@@ -6,11 +6,15 @@ export default class Contador extends Component {
   };
 
   incrementar = () => {
-    this.setState({ numero: this.state.numero + 1 });
+    this.alterarNumero(1);
   };
 
   decrementar = () => {
-    this.setState({ numero: this.state.numero - 1 });
+    this.alterarNumero(-1);
+  };
+
+  alterarNumero = diferenca => {
+    this.setState({ numero: this.state.numero + diferenca });
   };
 
   render() {
@@ -19,6 +23,8 @@ export default class Contador extends Component {
         <div>Número: {this.state.numero}</div>
         <button onClick={this.incrementar}>Inc</button>
         <button onClick={this.decrementar}>Dec</button>
+        <button onClick={() => this.alterarNumero(10)}>Inc 10</button>
+        <button onClick={() => this.alterarNumero(-10)}>Dec 10</button>
       </div>
     );
   }
