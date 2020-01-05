@@ -1,6 +1,6 @@
 # :books: ReactJS Studies
 
-Project created to study basics concepcts of [React](https://pt-br.reactjs.org/) offered by [Udemy](https://www.udemy.com/). <br>
+Project created to study basics concepts of [React](https://pt-br.reactjs.org/) offered by [Udemy](https://www.udemy.com/). <br>
 It's a course named <b>React + Redux: Fundamentos e 2 Apps do Absoluto ZERO!</b>.
 
 ## Author
